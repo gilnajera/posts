@@ -1,7 +1,7 @@
 
 ![logo](img/logo.png)
 
-#Las contraseñas más comunes en países hispanohablantes
+# Las contraseñas más comunes en países hispanohablantes
 
 Año con año, la empresa SplashData [[1]](https://www.teamsid.com/100-worst-passwords/) publica una lista de las contraseñas más comunes encontradas en información filtrada a lo largo de dicho año. En mi experiencia en pruebas de penetración a redes y aplicaciones en países tanto de habla hispana como de habla inglesa, he podido verificar la efectividad de estas listas a la hora de intentar recuperar contraseñas cifradas o acceder a servicios protegidos, dicha efectividad se puede considerar aceptable en los países angloparlantes y deficiente, si no es que casi nula, en los países hispanohablantes. Lo que comprueba la idea intuitiva de que la cultura y el idioma materno deben jugar un rol mayor a la hora de elegir una palabra o frase fácil de recordar para proteger el acceso a nuestra información.
 
@@ -62,13 +62,13 @@ Otro dato relevante son los conjuntos de caracteres, esto es, la combinación de
 
 Es de destacar el limitado uso de los caracteres especiales o de diferentes conjuntos en general, con la gran mayoría de los usuarios (88.1%) recurriendo únicamente a letras minúsculas y números. Esto, aunado a que la mayoría de las contraseñas son relativamente cortas, nos habla de que aún si estas contraseñas se hubiesen almacenado de forma segura (utilizando un algoritmo criptográfico de hash), recuperar el texto plano sería una tarea trivial con una computadora moderna.
 
-#Conclusión
+## Conclusión
 
 Es claro que el idioma y trasfondo cultural juegan un papel central en la elección de una contraseña para proteger el acceso a la información, sería muy interesante ver las diferencias no solo entre inglés y español, sino incluir idiomas que usen incluso otros alfabetos, como el chino o japonés.
 
 Aunque los datos utilizados son probablemente de 2011 o 2012, por la filtración a LinkedIn ya mencionada y por el hecho de que el año usado como parte de una contraseña más común  en la muestra fue 2011, podemos suponer que la lista no ha cambiado grandemente (así como casi no ha cambiado la lista global [[5]](https://www.cnet.com/news/the-25-worst-passwords-of-2011/)); esto nos habla de que probablemente, aún en estos días dónde mes con mes escuchamos de ataques cibernérticos y filtraciones de información en los medios de comunicación, la elección de contraseñas de los hispanohablantes se sigue limitando a nombres propios en minúsculas y secuencias o repeticiones de números, lo que facilita enormemente la labor de los atacantes que buscan descifrarlas o adivinarlas. Ojalá contar con esta lista, más cercana a nosotros que una basada en palabras inglesas, ayude a ir creando conciencia. 
 
-#Referencias:
+## Referencias:
 
 \[1\] https://www.teamsid.com/100-worst-passwords/
 
