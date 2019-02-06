@@ -1,4 +1,6 @@
-<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><style>body {
+<!DOCTYPE html><html>
+  <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<style>body {
   max-width: 980px;
   border: 1px solid #ddd;
   outline: 1300px solid #fff;
@@ -1068,7 +1070,7 @@ body .markdown-body
 <li>5,469,678 contraseñas únicas </li>
 </ul>
 <p>En cuanto a la distribución de datos por país, se puede ver en la siguiente gráfica:</p>
-<p><center> <img alt="Países" src="/home/gilberto/Documentos/research/passwords/Breach/img/paises.png" />  </center></p>
+<p><center> <img alt="Países" src="img/paises.png" />  </center></p>
 <p>Cabe destacar que el 96.99% de las entradas provienen de sólo 5 países, esto da pie para profundizar en cuestiones de acceso a internet y tecnologías de la información y otros temas, pero no es el objetivo del presente artículo. La aportación a la muestra en estos países es como sigue:</p>
 <ul>
 <li>España: 4,533,965 </li>
@@ -1079,14 +1081,14 @@ body .markdown-body
 </ul>
 <p>Para el procesamiento de la enorme cantidad de datos y la obtención de parámetros que son relevantes en un análisis de este tipo, se utilizó la herramienta <em>Pipal</em> <a href="https://github.com/digininja/pipal">[3]</a>. Pipal es un analizador de contraseñas que, además de hacer un conteo de las palabras más repetidas en una lista y otros análisis básicos permite también determinar el uso de distintos conjuntos de caracteres o contar el uso de palabras por categorías como deportes, religión, fechas,etc. Recomiendo a todos los Pentesters y auditores de seguridad que incorporen esta u otra herramienta similar en sus proyectos y reportes para dar visibilidad a sus clientes visibilidad acerca de los patrones de creación de contraseñas en sus organizaciones.</p>
 <p>De acuerdo con los criterios antes mencionados, las 50 contraseñas más comunes entre hispanohablantes son las siguientes:</p>
-<p><center> <img alt="Top50" src="/home/gilberto/Documentos/research/passwords/Breach/img/top50.png" /> </center></p>
+<p><center> <img alt="Top50" src="img/top50.png" /> </center></p>
 <p>Es de resaltar la gran popularidad que tienen los nombres propios y las secuencias o repeticiones de números. Es interesante que la palabra contraseña, que sería el equivalente de password, la cual aparece siempre en los primeros cinco lugares en las listas globales, no alcanzó sino la posición 90 en esta lista. Me pareció también curiosa la aparición de la palabra rental en el lugar 19, yendo más a detalle, esta palabra presenta la mayor incidencia en Argentina y Colombia. </p>
 <p>Otra contraseña a notar es la numero 49, linkedin, probablemente muchos de los registros en el archivo provienen de las contraseñas filtradas de dicho sitio en 2012 <a href="https://www.nytimes.com/2012/06/11/technology/linkedin-breach-exposes-light-security-even-at-data-companies.html">[4]</a>.</p>
 <p>Ahora, ¿Cómo se compara este resultado con las contraseñas más comunes en el conjunto completo de más de 1,400 millones? Casal publica en su artículo original una lista de las 40 contraseñas más frecuentes en dicho conjunto, la siguiente tabla indica en qué posición de dicha lista se encuentran, si es que aparecen, las correspondientes a países hispanohablantes:</p>
-<p><center> <img alt="Comparación" src="/home/gilberto/Documentos/research/passwords/Breach/img/comparado.png" /> </center></p>
+<p><center> <img alt="Comparación" src="img/comparado.png" /> </center></p>
 <p>Como podría esperarse, los nombres propios españoles no aparecen entre las contraseñas más populares a nivel global. Del resto, la mayor parte están ahí, con mayor o menor variación en su popularidad.</p>
 <p>Yendo un poco más a detalle en cuanto a parámetros de seguridad de las contraseñas, comenzando con la longitud, la siguiente gráfica muestra los datos para contraseñas de 20 caracteres o menos:</p>
-<p><center> <img alt="Por longitud" src="/home/gilberto/Documentos/research/passwords/Breach/img/longitud.png" />  </center></p>
+<p><center> <img alt="Por longitud" src="img/longitud.png" />  </center></p>
 <p>De la muestra analizada, el 98.87% de las contraseñas son de hasta 15 caracteres y el 62.55% es de 8 caracteres o menos. </p>
 <p>Otro dato relevante son los conjuntos de caracteres, esto es, la combinación de letras mayúsculas, minúsculas, dígitos y caracteres especiales:</p>
 <ul>
